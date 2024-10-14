@@ -21,7 +21,7 @@ RUN \
   add-apt-repository -y ppa:mozillateam/ppa && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive \
-  apt-get install --no-install-recommends -y \
+  apt-get install --install-recommends -y \
     firefox \
     mousepad \
     xfce4-terminal \
